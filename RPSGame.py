@@ -8,8 +8,7 @@ generated_pick = random.choice(computer_picks)
 
 # Game Logic
 if generated_pick == player_pick:
-    print(
-        f"It's a draw, Player choose {player_pick} and Python choose {generated_pick}")
+    print(f"It's a draw, Player choose {player_pick} and Python choose {generated_pick}")
 elif 'rock' in generated_pick and player_pick == 'paper':
     print(f'Player Wins! Python choose {generated_pick}')
 elif 'paper' in generated_pick and player_pick == 'scissors':
